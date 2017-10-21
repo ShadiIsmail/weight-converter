@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weight Converter App</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      <link rel="stylesheet" href="src/styles.css">
+       <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+   
+</head>
+<body>
+    
+   <div class="container">
+       <div class="row">
+           <div class="col-md-6 offset-md-3">
+               <h1 class="dislay-4 text-center mb-4">
+                   WEIGHT CONVERTER
+               </h1>
+               <form>
+                  <div class="form-group">
+                      <input id="lbsInput" type="number" placeholder="Enter Pounds...." class="form-control form-control-lg">
+                  </div> 
+                  
+               </form>
+               <div id="output" class="text-white">
+                  <div class="card card-primary mb-2">
+                      <div class="card-block">
+                          <h4>Grams:</h4>
+                           <div id="gramsOutput"></div>
+                      </div>
+                   </div>
+                      
+                      <div class="card card-success mb-2">
+                      <div class="card-block">
+                          <h4>Kilograms:</h4>
+                           <div id="kg"></div>
+                      </div>
+                   </div>
+                     
+                      <div class="card card-danger mb-2">
+                      <div class="card-block">
+                          <h4>Ounces:</h4>
+                           <div id="ozOutput"></div>
+                      </div>
+                  </div> 
+               </div>
+           </div>
+       </div>
+   </div> 
+    
+   
+   
+ <script type="text/javascript" src="src/app.js"></script>    
+</body>
+
+</html>
